@@ -11,6 +11,78 @@ Version: 1.0.0
 html {
   overflow-x: hidden;
 }
+.service-item {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(39, 62, 84, 0.07);
+    padding: 32px 22px 18px 22px;
+    transition: all 0.3s cubic-bezier(.65,.05,.36,1);
+    border: 2px solid #f6fafd;
+    min-height: 390px;
+    margin-bottom: 25px;
+}
+.service-item:hover {
+    box-shadow: 0 8px 36px rgba(39, 62, 84, 0.13);
+    border-color: #ef476f;
+    transform: translateY(-8px) scale(1.02);
+}
+.service-item .icon {
+    margin-bottom: 8px;
+    justify-content: flex-start;
+}
+.service-item .icon i {
+    font-size: 34px;
+    color: #ef476f;
+    margin-right: 12px;
+    transition: color 0.3s;
+}
+.service-item:hover .icon i,
+.service-item:hover h4 {
+    color: #003566;
+}
+.service-item h4 {
+    font-size: 21px;
+    font-weight: 700;
+    margin: 0;
+    color: #072d4b;
+    transition: color 0.3s;
+    letter-spacing: -0.5px;
+}
+.service-item ul {
+    padding: 0 0 0 24px;
+    margin: 10px 0 14px;
+}
+.service-item ul li {
+    color: #3d4857;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 7px;
+    list-style: disc;
+}
+.service-item a {
+    font-size: 16px;
+    color: #ef476f;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+.service-item a:hover {
+    color: #003566;
+    text-decoration: underline;
+}
+@media (max-width: 992px) {
+    .service-item {
+        min-height: 340px;
+        padding: 25px 16px 15px 16px;
+    }
+    .service-item h4 {
+        font-size: 18px;
+    }
+    .service-item ul li {
+        font-size: 15px;
+    }
+}
+
 
 body {
   line-height: 1.6;
