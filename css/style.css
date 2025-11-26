@@ -7,6 +7,47 @@ Description: Medicle Template
 Version: 1.0.0
 
 */
+.float-btn {
+    position: fixed;
+    bottom: 40px;
+    width: 55px;
+    height: 55px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    z-index: 9999;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+/* Call Button - Left */
+.call-btn {
+    left: 35px;
+    color: #0B62D0;     /* Professional Blue */
+}
+
+/* WhatsApp Button - Right */
+.whatsapp-btn {
+    right: 35px;
+    color: #25D366;     /* WhatsApp Green */
+}
+
+.float-btn:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
 @import url("https://fonts.googleapis.com/css?family=Exo:500,600,700|Roboto&display=swap");
 html {
   overflow-x: hidden;
@@ -560,6 +601,8 @@ a:focus {
 .letter-spacing {
   letter-spacing: 2px;
 }
+
+
 
 .text-color {
   color: #223a66;
