@@ -96,8 +96,14 @@ html {
     padding: 0 0 0 5px;
     margin: 10px 0 14px;
 }
+footer li,span,a{
+  color: black ;
+}
+  /* li,span{
+    color: black !important;
+  } */
 .service-item ul li {
-    color: #3d4857;
+    color: black;
     font-size: 15px;
     line-height: 1.6;
     margin-bottom: 7px;
@@ -140,7 +146,7 @@ body {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Exo", sans-serif;
   font-weight: 700;
-  color: #222;
+  color: black;
 }
 
 h1, .h1 {
@@ -170,6 +176,7 @@ h6, .h6 {
 
 p {
   line-height: 30px;
+  color: black;
 }
 
 .navbar-toggle .icon-bar {
@@ -720,11 +727,11 @@ a:focus {
 
 .feature-item {
   flex-basis: 33.33%;
-  margin: 0px 10px;
+  margin: 10px 10px;
   padding: 40px 30px;
   background-color: #fff;
   border-radius: 15px 15px 15px 15px;
-  box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+  box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.9);
 }
 
 .feature-item .feature-icon i {
