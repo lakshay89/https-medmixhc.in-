@@ -634,6 +634,7 @@ a:focus {
     min-height: 450px;
     background: #fff !important;
   }
+
 }
 
 @media (max-width: 400px) {
@@ -644,6 +645,10 @@ a:focus {
   .banner {
     min-height: 450px;
     background: #fff !important;
+  }
+  .float-btn{
+    width: 100px;
+    height: 55px;
   }
 }
 
